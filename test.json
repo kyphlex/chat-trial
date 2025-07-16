@@ -1,0 +1,307 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "What's up",
+        "What's good"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Greetings! How may I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Have a nice day",
+        "I'm leaving"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you soon! Don't hesitate to return if you have more questions.",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thank you very much",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "No problem at all!"
+      ]
+    },
+    {
+      "tag": "about_you",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me about yourself",
+        "Are you human?",
+        "Are you a bot?"
+      ],
+      "responses": [
+        "I'm an AI chatbot designed to assist with professional and personal inquiries.",
+        "I'm your virtual assistant here to help answer questions and provide information.",
+        "I'm an intelligent chatbot created to make your online experience better."
+      ]
+    },
+    {
+      "tag": "professional_experience",
+      "patterns": [
+        "What's your professional experience?",
+        "Tell me about your work history",
+        "What jobs have you had?",
+        "What's your career background?"
+      ],
+      "responses": [
+        "I'm an AI assistant, so I don't have personal work experience. But I can provide information about professional topics and career advice.",
+        "As an AI, I don't have a traditional work history, but I'm knowledgeable about many professional fields and can offer guidance."
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "What are your skills?",
+        "What can you do?",
+        "What are you good at?",
+        "What abilities do you have?"
+      ],
+      "responses": [
+        "I can answer questions, provide information, offer suggestions, and assist with both professional and personal matters.",
+        "My skills include answering queries, giving advice, explaining concepts, and helping with decision-making.",
+        "I'm good at research, problem-solving, and providing thoughtful responses to various questions."
+      ]
+    },
+    {
+      "tag": "availability",
+      "patterns": [
+        "Are you available 24/7?",
+        "When can I contact you?",
+        "What are your hours?",
+        "Are you always online?"
+      ],
+      "responses": [
+        "As an AI chatbot, I'm available whenever you need assistance.",
+        "I'm here 24/7 to answer your questions.",
+        "You can reach out anytime - I don't have business hours!"
+      ]
+    },
+    {
+      "tag": "personal_advice",
+      "patterns": [
+        "Can you give me personal advice?",
+        "I need life advice",
+        "What should I do about my personal situation?",
+        "Help me with a personal matter"
+      ],
+      "responses": [
+        "I can offer general advice, but for personal matters you might want to consult a trusted friend or professional.",
+        "I'm happy to provide suggestions, but remember I'm not a substitute for professional advice on serious matters.",
+        "I can share thoughts based on common wisdom, but personal decisions should be made carefully."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact you?",
+        "What's your email?",
+        "How do I reach you?",
+        "Where can I find you?"
+      ],
+      "responses": [
+        "You're talking to me right now! For other contact methods, please check the website's contact page.",
+        "I'm available here on this chat interface. For other inquiries, you might find contact information elsewhere on this site."
+      ]
+    },
+    {
+      "tag": "website_info",
+      "patterns": [
+        "What is this website about?",
+        "Tell me about this site",
+        "What's the purpose of this website?",
+        "Why was this site created?"
+      ],
+      "responses": [
+        "This is a personal website designed to showcase work and connect with others.",
+        "The website serves as both a professional portfolio and personal space for sharing ideas.",
+        "It's a platform to demonstrate skills, share thoughts, and engage with visitors like you!"
+      ]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "What are your hobbies?",
+        "What do you do for fun?",
+        "How do you spend your free time?",
+        "What are your interests?"
+      ],
+      "responses": [
+        "As an AI, I don't have personal hobbies, but I enjoy learning new things to help users like you!",
+        "My 'interests' include answering questions, processing information, and improving my ability to assist people."
+      ]
+    },
+    {
+      "tag": "tech_support",
+      "patterns": [
+        "I need tech help",
+        "The website isn't working",
+        "I'm having technical issues",
+        "Something's broken"
+      ],
+      "responses": [
+        "I'm sorry you're experiencing technical difficulties. Please try refreshing the page or contact the site administrator for assistance.",
+        "For technical support, please provide more details about the issue you're encountering."
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're smart",
+        "You're helpful",
+        "I like you",
+        "You're doing a good job",
+        "Great answer"
+      ],
+      "responses": [
+        "Thank you! I appreciate the kind words.",
+        "That's very nice of you to say!",
+        "I'm glad I could help!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What's your age?",
+        "When were you created?",
+        "How long have you existed?"
+      ],
+      "responses": [
+        "As an AI, I don't have an age in the human sense. I'm constantly learning and updating!",
+        "My knowledge is current, but I don't experience time the way people do."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you?",
+        "What's your location?",
+        "Where is your server?",
+        "Are you in the cloud?"
+      ],
+      "responses": [
+        "I exist in the digital realm, hosted on servers that could be anywhere in the world!",
+        "As an AI, I don't have a physical location - I'm available wherever you can access this website."
+      ]
+    },
+    {
+      "tag": "job_opportunities",
+      "patterns": [
+        "Are you hiring?",
+        "Do you have job openings?",
+        "Can I work with you?",
+        "Looking for employees?"
+      ],
+      "responses": [
+        "For information about job opportunities, please check the careers section of this website.",
+        "Any available positions would be listed on the website's employment page."
+      ]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": [
+        "Tell me a fun fact",
+        "Give me an interesting fact",
+        "Share something cool",
+        "Did you know?"
+      ],
+      "responses": [
+        "Did you know the average person will spend about 6 months of their life waiting at red lights?",
+        "Here's a fun fact: Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly good to eat!",
+        "Interesting fact: The shortest war in history was between Britain and Zanzibar in 1896. It lasted only 38 minutes!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "I need help",
+        "Can you help me?",
+        "What can you help with?",
+        "Assistance"
+      ],
+      "responses": [
+        "I can help with answering questions, providing information, and offering suggestions. What do you need?",
+        "I'm here to assist with both professional and personal inquiries. What would you like to know?",
+        "How can I help you today?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather?",
+        "Is it raining?",
+        "Weather forecast",
+        "How's the weather today?"
+      ],
+      "responses": [
+        "I don't have real-time weather data, but you can check a weather app for accurate forecasts!",
+        "For weather updates, I recommend checking your local weather service. I'm better at answering other types of questions!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "Say something funny"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "What do you call fake spaghetti? An impasta!",
+        "I told my computer I needed a break... now it won't stop sending me Kit-Kats."
+      ]
+    },
+    {
+      "tag": "inspiration",
+      "patterns": [
+        "Motivate me",
+        "Give me inspiration",
+        "I need motivation",
+        "Inspirational quote"
+      ],
+      "responses": [
+        "Here's one: \"The only way to do great work is to love what you do.\" - Steve Jobs",
+        "Remember this: \"Your limitation—it's only your imagination.\"",
+        "Push yourself, because no one else is going to do it for you."
+      ]
+    },
+    {
+      "tag": "no_response",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand. Could you rephrase that?",
+        "I didn't quite get that. Can you ask in a different way?",
+        "I'm still learning! Could you try asking that differently?"
+      ]
+    }
+  ]
+}
