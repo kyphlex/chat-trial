@@ -18,13 +18,13 @@ This was a learning experiment — building an end-to-end chatbot with custom in
 ## 📁 Project Structure
 
 ayineun-chatbot/
-├── test.json
-├── train_chatbot.py
-├── chat.py
-├── words.pkl
-├── classes.pkl
-├── test_bot.h5
-├── requirements.txt
+├── test.json  
+├── train_chatbot.py  
+├── chat.py  
+├── words.pkl  
+├── classes.pkl  
+├── test_bot.h5  
+├── requirements.txt  
 └── README.md
 
 
